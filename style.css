@@ -1,0 +1,58 @@
+body {
+  background-image: url(./image/pocahontas.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: aqua;
+}
+
+li {
+  background-color: lightcoral;
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: lightgray;
+}
+
+.active {
+  background-color: teal;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+h1,
+h2 {
+  position: absolute;
+  left: 60px;
+  top: 150px;
+  color: lightcoral;
+  font-size: 150px;
+  font-family: "Lobster", cursive;
+  text-shadow: 4px 4px 8px #000000;
+}
+h2 {
+  position: absolute;
+  left: 250px;
+  top: 350px;
+}
